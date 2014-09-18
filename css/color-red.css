@@ -1,0 +1,35 @@
+/*Background Color Start*/
+.head_superior, strong.logo, .area_globos_interna:hover .globo a.inner, .blog-post-box .area_etiquetas strong.type, .linea_tiempo_recuadro_out .area_etiquetas, .text-d, .btn, .our-facts, #banner_interno, .optionsDivVisible a:hover, .timeline-project-box .espacio_slide .heading-area, .evento_encabezado, .navigation-area a.btn-donate3, a.btn-donate5, .upcoming-events-box, .caja_noticias .frame .area_etiquetas:before, .obras_galeria:before, .gallery-frame .area_etiquetas:before, .other-project .area_etiquetas:before, .evento_fila .frame .area_etiquetas:before, .evento_fila ul li:hover a.location, .related-box .frame .area_etiquetas:before, .caja_equipo .frame .area_etiquetas:before, .accordition-box .accordion-heading .accordion-toggle:hover, .donate-form ul li:hover a:before, .upcoming-box .area_etiquetas strong.mnt:before, .color-2:after, .color-3:after, .color-4:after, .color-5:after, .color-1, .sidebar-member a.member-icon:before, .accordition-box .accordion-heading .accordion-toggle:hover span, .cp-accordion .accordion-heading:hover, .grid .area_etiquetas:before, .accordion-heading.active .accordion-toggle, .accordion-heading.active .accordion-toggle span, #banner .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color:#ba131a;
+}
+/*Background Color End*/
+
+/*Border Color Start*/
+strong.logo:before, #nav li.active a:before, #nav li:hover > a:before, .area_globos_interna:hover .globo a.inner:before, .timeline-project-box .espacio_slide .heading-area:before, .evento_encabezado:before, #nav li:hover > a, .color-1:before, #nav li.active > a, .color-2:before, .color-3:before, .color-4:before, .color-5:before {
+	border-top-color:#ba131a;
+}
+/*Border Color End*/
+
+/*Text Color Start*/
+.upcoming-events-box .bx-wrapper .bx-prev:before, .upcoming-events-box .bx-wrapper .bx-next:before, .text-b, .evento_fila ul li:hover h2, #banner .area_etiquetas h1, #banner .area_etiquetas h2 {
+	color:#ba131a;
+}
+/*Text Color End*/
+
+/*Border Color Start*/
+.our-project h3, .latest-news-box h3, .blog-post h3, .linea_tiempo_caja h3, .welcome-text-box h2, .sobre_mi_texto h3, .sobre_mi_texto blockquote, .sobre_mi_texto blockquote:before, .caja_miembros_equipo h3, .nosotros_detalles_caja h4, .blog-content .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span, .blog-content .pagination ul > .active > a, .pagination ul > .active > span, .barra_lateral_post h3, .blog-box-1 .text blockquote, .blog-box-1 .text blockquote:before, .blog-detail-form h3, .donate-page h2, .pagination-all.pagination ul > .active > a, .pagination ul > .active > span, .pagination-all.pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span, .comment-box h3, .related-event-box h3, .other-project h3, .sidebar-member a.member-text:before, .evento_fila ul li:hover a.location, .get-touch-form input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus, .cp-columns h2, .customization-options h2, .cp-highlighter h2, .cp-testimonials h2, .blockquote-1, .blockquote-1:before, .syntaxhighlighter .gutter .line {
+ border-color:#ba131a;
+}
+/*Border Color End*/
+
+/*Button Color Start*/
+.our-project a.btn_ver, .box-1 a.btn-readmore, .get-touch-form .btn-search, .blog-content .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span, .blog-content .pagination ul > .active > a, .pagination ul > .active > span, .sidebar-member a.member-text, .detail-btn-sumbit, .donate-btn-submit, .detail-btn-sumbit2, .pagination-all.pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span, .pagination-all.pagination ul > .active > a, .pagination ul > .active > span, .timline-project .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .member-btn-submit, .tabla_mision_tab .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus, .tabla_mision_tab .nav > li > a:hover, .nav > li > a:focus, .timline-project .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .donate-form ul li a:hover, .donate-form ul li:hover .inner, .head_superior a.inicio_sesion:before, .btn, .navbar .btn-navbar, .tabs-box .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus, .tabs-box .nav-tabs > li > a:hover, .nav-tabs > li > a:focus, .testimonial-box-1 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .timline-project .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .cp-accordion .accordion-heading:hover span.open, .button-box a, #banner .area_etiquetas a.view, #banner .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background-color:#ba131a;
+}
+/*Button Color End*/
+
+/*Box Shadow Color Start*/
+.pagination-all.pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span, .pagination-all.pagination ul > .active > a, .pagination ul > .active > span {
+	box-shadow:#950609 !important;
+
+/*Box Shadow Color End*/
