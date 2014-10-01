@@ -159,7 +159,7 @@ CREATE TABLE IF NOT EXISTS `directorio` (
   `puestoDir` varchar(11) DEFAULT NULL,
   `telDir` varchar(11) DEFAULT NULL,
   `mailDir` varchar(11) DEFAULT NULL,
-  PRIMARY KEY (`idElemento`)
+  PRIMARY KEY (`idDir`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=200 ;
 
 --
@@ -179,7 +179,8 @@ DROP TABLE `galeria`;
 
 CREATE TABLE IF NOT EXISTS `galeria` (
   `idGal` int(11) NOT NULL AUTO_INCREMENT,
-  `nombreGal` varchar(100) DEFAULT NULL,
+  `nombreGal` varchar(70) DEFAULT NULL,
+  `categoriaGal` varchar(20) DEFAULT NULL,
   `imgGal` varchar(11) DEFAULT NULL,
   
   PRIMARY KEY (`idGal`)
