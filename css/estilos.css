@@ -37,10 +37,34 @@ body {
 	width:100%;
 }
 #header {
+	background: url(../img/fondo4.jpg);
 	float:left;
 	width:100%;
 	height:140px;
 	position:relative;
+	
+}
+#header.smaller {
+    height: 75px; }
+#header.smaller nav a {
+      line-height: 75px; }
+
+#titulo_header{
+	margin-left: 9em;
+	color: #ba131a;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+#elementos_header{
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+#elementos_header .smaller{
+    border-bottom: solid 3px #ba131a;
 }
 .mision_vision{
 	margin-left: 1.8em;
@@ -334,6 +358,16 @@ strong.logotipo-4 a {
 	text-align:center;
 	padding:0 0 5px 0;
 }
+/*MENU enmedio */
+.menu_intermedio{
+	width: 960px;
+	display: inline-block;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; 
+}
 .height-2 {
 	height:183px !important;
 }
@@ -534,11 +568,20 @@ a.btn-donate5:hover {
 	max-width: 330px;
 	height: 105px;
 	z-index: 9;
+	display: block;
 }
 .logotipo2 img{
-	width: 100px;
+	width: 150px;
 }
 
+.smaller .logotipo img{
+	width: 75px;
+
+}
+.smaller .logotipo2 img{
+	width: 75px;
+
+}
 
 /*AREA  DE NAVEGACION*/
 .area_navegacion {
@@ -622,16 +665,15 @@ a.btn-donate5:hover {
 /*Termino area de navegacion*/
 /*Navbar navegacion*/
 #navbar {
-	margin:0 auto;
+	margin:5px  auto 1em 9em;
 	clear:both;
 	width:100%;
 	display:block;
-	background-color:#fff;
 	height:63px;
 	/*border-radius:5px 5px 0 0;*/
 	-moz-border-radius:5px 5px 0 0;
 	-webkit-border-radius:5px 5px 0 0;
-	box-shadow:0 0 4px rgba(0,0,0,0.3);
+	/*box-shadow:0 0 4px rgba(0,0,0,0.3);*/
 }
 #nav {
 	width:100%;

@@ -22,23 +22,33 @@
 <link rel="stylesheet" type="text/css" href="css/color-red.css" titulo="styles1" media="screen" />
 <link rel="alternate stylesheet" type="text/css" href="css/color-red.css" titulo="styles1" media="screen" />
 
-
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 20,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
 
 </head>
 <body>
 <div id="marco_principal"> 
-
-  <header id="header">     
-   
-    <div class="fila_menu">
-      <div class="container">
-        <div class="row-fluid"> <div class="logotipo pull-left"><a href="index.html"><img src="img/logocecy.png" alt="img"></a></div></div>
-      </div>
-
-      <section class="area_navegacion">
-        <div class="container">
-          <div class="row-fluid">             <div class="navbar margin-none">
-              <div class="container">
+ <header id="header">     
+ <section id="elementos_header">   
+  <div class="logotipo pull-left"><a href="index.html"><img src="img/logocecy.png" alt="img"></a></div>
+  <section class="menu_intermedio">
+      <div class="navbar margin-none">
+             
                 <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="nav-collapse collapse">
                   <div id="navbar">
@@ -48,21 +58,19 @@
                       <li><a href="#">Directorio</a>
                         <ul>
                           <li><a href="#">Organigrama</a></li>
-                         
                         </ul>
                       </li>
                       <li><a href="#">Quiénes somos</a></li>
                       <li><a href="#">Transparencia</a></li>
                       <li><a href="#">Gestión de calidad</a></li>
                       <li><a href="#">Contacto</a></li>
-                      <li><div class="logotipo2"><img src="img/cecyte.jpg" alt="img"></div></li>
-
+                      <li></li>
+                      <li><a href="#" id="no-active-btn" data-toggle="modal" class="inicio_sesion" data-target=".bs-example-modal-sm"><i class="fa fa-user"></i></a></li>
                     </ul>
                   </div>
                 </div>
-                
-              </div>
-              <a href="#" id="no-active-btn" data-toggle="modal" class="inicio_sesion" data-target=".bs-example-modal-sm"><i class="fa fa-user"></i></a>
+             
+              
             <!--<div class="modal fade bs-example-modal-sm margen_modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-sm">
                       <div class="modal-content">
@@ -86,9 +94,16 @@
                     </div>
             </div> -->
           </div>
-        </div>
-      </section>
-    </div>
+  </section>
+
+  <div class="logotipo2 pull-right"><img src="img/cecyte1.jpg" alt="img"></div>
+   <h3 id="titulo_header">Colegio de Estudios Científicos y Tecnológicos del Estado de Durango</h3>
+      
+
+        
+            
+   </section>   
+    
   </header>
   
   <div id="principal"> 
@@ -395,7 +410,7 @@
 <script type="text/javascript" src="js/jquery-filterable.js"></script> 
 <script type="text/javascript" src="js/jquery.flexisel.js"></script> 
 <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script> 
-<script type="text/javascript" src="js/styleswitch.js"></script> 
+<script src="js/classie.js"></script>
 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script> 
 <script src="js/custom.js" type="text/javascript"></script>
 </body>
