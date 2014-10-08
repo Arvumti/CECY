@@ -33,6 +33,9 @@ body {
 	margin:0;
 	padding:0;
 }
+body p{
+	text-align: justify;
+}
 #marco_principal {
 	width:100%;
 }
@@ -50,6 +53,7 @@ body {
       line-height: 75px; }
 
 #titulo_header{
+	margin-top: 3em;
 	margin-left: 9em;
 	color: #ba131a;
 	-webkit-transition: all 0.3s;
@@ -61,10 +65,17 @@ body {
 #elementos_header{
 	position: fixed;
 	width: 100%;
+	height: 60px;
 	z-index: 99;
+	 
 }
-#elementos_header .smaller{
-    border-bottom: solid 3px #ba131a;
+#elementos_header, .smaller{
+    border-bottom: 1px solid #e5e5e5;
+    background:rgba(255,255,255, 0.5);
+    box-shadow: 0 -5px 0 rgba(0,0,0,.03);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+
 }
 .mision_vision{
 	margin-left: 1.8em;
@@ -1072,7 +1083,7 @@ color: green;
 .area_globos_interna p {
 	font:400 14px/22px 'Open Sans', sans-serif;
 	color:#666;
-	text-align:center;
+	text-align:justify;
 	margin:0;
 }
 .area_globos_interna:hover .globo a.inner {

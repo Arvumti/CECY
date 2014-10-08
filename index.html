@@ -35,11 +35,20 @@
                     classie.remove(header,"smaller");
                 }
             }
+            var distanceX= windoq.pageYoffset || document.documentElement.scrollTop,
+                shrinkOn = 20,
+                elementos = document.querySelector("elementos_header");
+            if (distanceX > shrinkOn) {
+                classie.add(elementos,"smaller");
+            } else {
+                if (classie.has(elementos,"smaller")) {
+                    classie.remove(elementos,"smaller");
+                }
+            }
         });
     }
     window.onload = init();
 </script>
-
 </head>
 <body>
 <div id="marco_principal"> 
@@ -65,13 +74,23 @@
                       <li><a href="#">Gestión de calidad</a></li>
                       <li><a href="#">Contacto</a></li>
                       <li></li>
-                      <li><a href="#" id="no-active-btn" data-toggle="modal" class="inicio_sesion" data-target=".bs-example-modal-sm"><i class="fa fa-user"></i></a></li>
+                      <li><a href="#" id="" data-toggle="modal" class="inicio_sesion" data-target=".modal_login"><i class="fa fa-user"></i></a></li>
                     </ul>
                   </div>
                 </div>
              
               
-            <!--<div class="modal fade bs-example-modal-sm margen_modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+           
+            </div> 
+            </section>
+
+  <div class="logotipo2 pull-right"><img src="img/cecyte3.png" alt="img"></div>
+</section>   
+   <h3 id="titulo_header">Colegio de Estudios Científicos y Tecnológicos del Estado de Durango</h3>
+    </header>
+  
+  <div id="principal"> 
+     <div class="modal fade modal_login margen_modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-sm">
                       <div class="modal-content">
                               <form role="form">
@@ -92,21 +111,6 @@
                       </div>
                      </div>
                     </div>
-            </div> -->
-          </div>
-  </section>
-
-  <div class="logotipo2 pull-right"><img src="img/cecyte1.jpg" alt="img"></div>
-   <h3 id="titulo_header">Colegio de Estudios Científicos y Tecnológicos del Estado de Durango</h3>
-      
-
-        
-            
-   </section>   
-    
-  </header>
-  
-  <div id="principal"> 
     <div id="banner">
       <ul id="banner_inicio">
         <li> <img src="img/Banner_Sep.png" alt="img">

@@ -130,6 +130,7 @@ CREATE TABLE IF NOT EXISTS `planteles` (
   `pltMunicipio` varchar(11) DEFAULT NULL,
   `pltLocalidad` varchar(11) DEFAULT NULL,
   `pltDirector` varchar(11) DEFAULT NULL,
+  `pltExescolar` varchar(11) DEFAULT NULL,
   `pltMatricula` int(11) DEFAULT NULL,
 
   PRIMARY KEY (`pltId`)
@@ -139,14 +140,14 @@ CREATE TABLE IF NOT EXISTS `planteles` (
 -- Volcado de datos para la tabla `planteles`
 --
 
-INSERT INTO `planteles` (`pltId`, `pltNombre`, `pltModalidad`,`pltServicios`,`pltCarreras`,`pltMunicipio`,`pltLocalidad`,`pltDirector`,`pltMatricula`) VALUES
-(1, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(2, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(3, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(4, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(5, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(6, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(7, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `planteles` (`pltId`, `pltNombre`, `pltModalidad`,`pltServicios`,`pltCarreras`,`pltMunicipio`,`pltLocalidad`,`pltDirector`,`pltExescolar`,`pltMatricula`) VALUES
+(1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(4, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(6, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 --
 -- Estructura de tabla para la tabla `directorio
