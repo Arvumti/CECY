@@ -23,63 +23,73 @@
 <link rel="alternate stylesheet" type="text/css" href="css/color-green.css" titulo="styles4" media="screen" />
 <link rel="alternate stylesheet" type="text/css" href="css/color-blue.css" titulo="styles5" media="screen" />
 <link rel="alternate stylesheet" type="text/css" href="css/color-brown.css" titulo="styles6" media="screen" />
+
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 20,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+            var distanceX= windoq.pageYoffset || document.documentElement.scrollTop,
+                shrinkOn = 20,
+                elementos = document.querySelector("elementos_header");
+            if (distanceX > shrinkOn) {
+                classie.add(elementos,"smaller");
+            } else {
+                if (classie.has(elementos,"smaller")) {
+                    classie.remove(elementos,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
 </head>
 <body>
-
 <div id="marco_principal"> 
-
-  <header id="header">     
-   
-    <div class="fila_menu">
-      <div class="container">
-        <div class="row-fluid"> <strong class="logotipo"><a href="index.html"><img src="img/logotipo.png" alt="img"></a></strong> </div>
-      </div>
-
-      <section class="area_navegacion">
-        <div class="container">
-          <div class="row-fluid">             <div class="navbar margin-none">
-              <div class="container">
+ <header id="header">     
+ <section id="elementos_header">   
+  <div class="logotipo pull-left"><a href="index.html"><img src="img/logocecy.png" alt="img"></a></div>
+  <section class="menu_intermedio">
+      <div class="navbar margin-none">
+             
                 <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="nav-collapse collapse">
                   <div id="navbar">
                     <ul id="nav">
-                      <li class="active"><a href="index.html">Inicio</a>
-                        
-                      </li>
-                      <li><a href="#">Planteles</a>
-                       
-                      </li>
+                      <li class="active"><a href="index.html">Inicio</a></li>
+                      <li><a href="#">Planteles</a></li>
                       <li><a href="#">Directorio</a>
                         <ul>
                           <li><a href="#">Organigrama</a></li>
-                         
                         </ul>
                       </li>
-                      <li><a href="#">Quiénes somos</a>
-                      
-                      </li>
+                      <li><a href="#">Quiénes somos</a></li>
                       <li><a href="#">Transparencia</a></li>
                       <li><a href="#">Gestión de calidad</a></li>
-                      <li><a href="#">Otros</a>
-                        
-                      </li>
-                    
                       <li><a href="#">Contacto</a></li>
+                      <li></li>
+                      <li><a href="#" id="" data-toggle="modal" class="inicio_sesion" data-target=".modal_login"><i class="fa fa-user"></i></a></li>
                     </ul>
                   </div>
                 </div>
-              </div>
-              <a href="#" id="no-active-btn" class="inicio_sesion"><i class="fa fa-user"></i></a>
-              <div class="">
+             
               
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  
-  </header>
+           
+            </div> 
+            </section>
+
+  <div class="logotipo2 pull-right"><img src="img/cecyte.png" alt="img"></div>
+</section>   
+   <h3 id="titulo_header">Colegio de Estudios Científicos y Tecnológicos del Estado de Durango</h3>
+    </header>
   
   <div id="principal"> 
     <div id="banner">
