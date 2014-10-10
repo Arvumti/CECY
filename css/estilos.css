@@ -1092,7 +1092,7 @@ color: green;
 .area_globos_interna:hover .globo a.inner:before {
 }
 /*Globos*/
-/*Noticias Index*/
+/*Noticias Index Acordeón CSS*/
 .caja_ultimas_noticias {
 	float:left;
 	width:100%;
@@ -1121,6 +1121,9 @@ color: green;
 	width:100%;
 	float:left;
 	position:relative
+}
+.css3accordion img{
+	height: 181px;
 }
 .css3accordion>ul {
 	list-style:none;
@@ -1167,7 +1170,7 @@ color: green;
 	border-bottom:1px solid #ccc;
 	float:left;
 	padding:0 0 9px 0;
-	margin:0 0 15px 0;
+	margin:0 50px 15px 0;
 }
 .css3accordion .content .top strong.mnt {
 	font:400 12px/12px 'Roboto Slab', serif;
@@ -1196,7 +1199,7 @@ color: green;
 .css3accordion .content .top a.comment:hover {
 	color:#333;
 }
-.css3accordion .content strong.titulo {
+.css3accordion .content strong.titulo_acordeon {
 	font:400 16px 'Roboto Slab', serif;
 	color:#333;
 	display:block;
@@ -4303,14 +4306,20 @@ pre {
 
 .galeria_recuadro img {
 	display:block;
-	width:100%;
+	width:270px;
+	height: 200px;
 }
 .galeria_info{
 	background: #333333;
-	height: 40px;
+	height: 60px;
 
 }
 .galeria_info h4{
+	text-align: center;
+	color: white;
+	margin-top: 0;
+}
+.galeria_info h6{
 	text-align: center;
 	color: white;
 	margin-top: 0;
@@ -5562,6 +5571,15 @@ width: 400px;
 	margin-top: 10em;
 }
 
-
+.tw_noticia{
+	margin: 2em 2em 2em 2em;
+}
+.tw_noticia .caja_tw{
+	padding: 20px 20px 20px 20px;
+}
+.gallery-frame img{
+height: 200px;
+width: 270px;
+}
 
 
