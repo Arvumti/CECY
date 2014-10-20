@@ -1559,17 +1559,17 @@ body {
 }
 .modal {
 	position: fixed;
-	top: 20px;
+	top: 50px;
 	right: 20px;
 	left: 20px;
 	width: auto;
 	margin: 0;
 }
 .modal.fade {
-	top: -100px;
+	top: 50px;
 }
 .modal.fade.in {
-	top: 20px;
+	top: 50px;
 }
 .news-box .frame {
 	width:100%;
@@ -2022,7 +2022,7 @@ strong.logo:before {
 	margin:0;
 }
 .navbar .btn, .navbar .btn-group {
-	margin-top:-40px;
+	margin-top:10px;
 }
 .navigation-area a.search {
 	margin-top:-44px;
